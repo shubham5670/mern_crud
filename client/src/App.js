@@ -1,6 +1,6 @@
 import React from "react";
 import { Container } from '@material-ui/core';
-import { BrowserRouter, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import Navbar from "./component/Navbar/Navbar";
 import Home from "./component/Home/Home";
 import Auth from "./component/Auth/Auth";
